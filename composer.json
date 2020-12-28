@@ -2,6 +2,6 @@
     "name": "example/hexlet-php",
     "description": "hexlet program",
     "require": {
-    
+        "tightenco/collect": "^8.19"
     }
 }
