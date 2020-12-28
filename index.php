@@ -1,3 +1,6 @@
 <?php
+require __DIR__ . '/vendor/autoload.php';
 
-echo 'Hello, Hexlet!';
+use Hexlet\PHP\Runner;
+
+print_r(Runner\run());
