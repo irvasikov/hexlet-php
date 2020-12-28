@@ -1,14 +1,12 @@
 {
     "name": "example/hexlet-php",
     "description": "hexlet program",
+    "autoload": {
+	   "files": [
+		  "src/Runner.php"
+	   ]
+    },
     "require": {
         "tightenco/collect": "^8.19"
-    }
-    "autoload": {
-   	"files": [
-		"src/Runners.php"
-	
-	] 
-    
     }
 }
